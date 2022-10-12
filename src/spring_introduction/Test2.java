@@ -11,7 +11,5 @@ public class Test2 {
         Pet pet1 = context.getBean("myDog", Pet.class);
         pet1.say();
         context.close();
-    }
-   
-    
+    } 
 }
